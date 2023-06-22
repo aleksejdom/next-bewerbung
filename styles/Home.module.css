@@ -127,6 +127,8 @@
   max-width: 680px;
   text-align: center;
   margin: 1rem auto 3rem;
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
 .cta-link {
