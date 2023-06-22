@@ -9,10 +9,12 @@
   },
   "dependencies": {
     "gsap": "^3.12.1",
+    "i18next": "^23.2.3",
     "next": "13.4.6",
     "next-videos": "^1.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-i18next": "^13.0.1",
     "react-intersection-observer": "^9.5.1",
     "react-spinners": "^0.13.8",
     "sass": "^1.63.4"
