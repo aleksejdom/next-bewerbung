@@ -1,0 +1,234 @@
+.anschreiben {
+  margin: 0 auto;
+  margin-top: 6rem;
+  max-width: 860px;
+  font-family: 'Open Sans SemiBold', sans-serif;
+}
+
+.anschreiben h2 {
+  font-family: 'Comfortaa Medium', sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin-bottom: 0;
+  max-width: 680px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.anschreiben h3 {
+  font-family: 'Comfortaa Medium', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.text-box {
+  font-family: 'Open Sans Medium', sans-serif;
+  margin: 0 auto;
+  margin-top: 2rem;
+  max-width: 690px;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.text-box p {
+  hyphens: auto;
+  font-size: 16px;
+  line-height: 1.6;
+  word-break: break-word;
+}
+
+.text-box ol {
+  margin: 2rem 0;
+}
+
+.text-box ol li {
+  margin-bottom: 1rem;
+}
+
+.lebenslauf-box {
+  margin: 0 auto;
+  margin-top: 6rem;
+  max-width: 860px;
+  font-family: 'Open Sans SemiBold', sans-serif;
+}
+
+.lebenslauf-box h1 {
+  font-family: 'Comfortaa Medium', sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin-bottom: 0;
+  max-width: 680px;
+  text-align: center;
+  margin: 0 auto;
+  
+}
+
+.lebenslauf-text-box {
+  font-family: 'Open Sans Medium', sans-serif;
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 0rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.cta-lebenslauf-wrapper {
+  margin-top: 6rem;
+  margin-bottom: 4rem; 
+  display: flex;
+  height: 2px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-lebenslauf {
+  font-family: 'Open Sans Medium', sans-serif;
+  text-transform: uppercase;
+  border-radius: 0;
+  background: #eddb57;
+  color: #ffffff;
+  border: none;
+  font-size: 21px;
+  padding: 10px 45px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.cta-lebenslauf::before {
+  content: '»';
+  margin-right: 5px;
+}
+
+.lebenslauf-text-box:first-of-type {
+  margin-top: 0rem; 
+}
+
+.lebenslauf-text-box div {
+  width: 65%;
+  font-size: 18px;
+  margin: 0.5rem 0;
+}
+
+.lebenslauf-text-box div p {
+  margin: 0;
+}
+
+.lebenslauf-text-box div ul {
+  margin: 0;
+  padding: 0;
+}
+
+.lebenslauf-text-box div ul li {
+  list-style: inside;
+  list-style-type: '─ ';
+}
+
+.lebenslauf-text-box div:first-of-type {
+  width: 235px;
+}
+ 
+.lebenslauf-text-box div:last-of-type {
+  margin-left: 2rem;
+}
+
+.lebenslauf-data { 
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 4rem;
+  font-family: 'Open Sans SemiBold', sans-serif;
+}
+
+.lebenslauf-zahlen {
+  width: 60%;
+}
+.lebenslauf-person {
+  width: 40%;
+  font-size: 14px;
+  line-height: 19px;
+  color: #5f5f5f;
+  font-family: 'Open Sans Medium', sans-serif;
+}
+.lebenslauf-person div:first-of-type {
+  font-size: 21px;
+  line-height: 24px;
+  font-family: 'Comfortaa Medium', sans-serif;
+  font-weight: 600;
+  color:black;
+}
+.lebenslauf-person div p > span { 
+  color: #adadad;
+  font-size: 12px;
+  font-family: 'Open Sans Medium', sans-serif;
+  margin-right: 5px;
+}
+.lebenslauf-person img {
+  max-width: 150px;
+  border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+  .anschreiben { 
+    margin-top: 4rem;
+    max-width: 100%; 
+  }
+  .anschreiben h2 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    max-width: 100%; 
+    text-align: left;
+    padding: 0rem 2rem;
+    box-sizing: border-box;
+  }
+  .anschreiben h3 {
+    text-align: left;
+    padding: 0rem 2rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  .text-box { 
+    margin-top: 0rem;
+    padding-top: 1rem;
+    max-width: 100%; 
+  }
+  .cta-lebenslauf-wrapper {
+    margin-top: 3rem; 
+  }
+  .lebenslauf-box { 
+    margin-top: 4rem; 
+    max-width: 100%;
+  }
+  .lebenslauf-box h1 {
+    font-size: 2rem;
+  }
+  .lebenslauf-data {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .lebenslauf-person {
+    width: 100%;
+    padding: 0 2rem;
+    box-sizing: border-box;
+  }
+  .lebenslauf-zahlen {
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  .lebenslauf-text-box div:first-of-type {
+    width: 25%;
+    font-size: 12px;
+  }
+  .lebenslauf-text-box div:last-of-type {
+    margin-left: 1rem;
+  }
+  .lebenslauf-text-box div { 
+    font-size: 16px; 
+  }
+  .lebenslauf-text-box {
+    margin-top: 0.6rem!important;
+  }
+}
