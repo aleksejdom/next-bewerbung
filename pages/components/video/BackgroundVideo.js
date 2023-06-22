@@ -4,7 +4,7 @@ import styles from './BackgroundVideo.module.css';
 function BackgroundVideo() {
   const [isPlaying, setPlaying] = useState(false);
   const [isMuted, setMuted] = useState(true);
-  const [videoSrc, setVideoSrc] = useState('/assets/videos/video.m4v');
+  const [videoSrc, setVideoSrc] = useState('./assets/videos/video.m4v');
   const videoRef = useRef();
 
   useEffect(() => {
@@ -25,15 +25,15 @@ function BackgroundVideo() {
   }
 
   const handleVideo = () => {
-    if (videoSrc === '/assets/videos/video.m4v') {
-      setVideoSrc('/assets/videos/video_normal.m4v');
+    if (videoSrc === './assets/videos/video.m4v') {
+      setVideoSrc('./assets/videos/video_normal.m4v');
     } else {
-      setVideoSrc('/assets/videos/video.m4v');
+      setVideoSrc('./assets/videos/video.m4v');
     }
   }
 
   const getButtonText = () => {
-    return videoSrc === '/assets/videos/video.m4v' ? 'Falls keine 3D Brille vorhanden ist, hier klicken' : '3D Brille vorhanden';
+    return videoSrc === './assets/videos/video.m4v' ? 'Falls keine 3D Brille vorhanden ist, hier klicken' : '3D Brille vorhanden';
   }
 
   return (
@@ -42,7 +42,7 @@ function BackgroundVideo() {
         <div className={styles.overlay} onClick={handleClick}>
           <div className={styles.wrapper}>
             <h1>3D Brille bereit halten</h1>
-            <img src="/assets/images/glasses.svg" alt="glasses" title="3d glasses"/>
+            <img src="./assets/images/glasses.svg" alt="glasses" title="3d glasses"/>
             <p>VIDEO STARTEN</p>
             <button className={styles.ctaBrille} onClick={handleVideo}>{getButtonText()}</button>
           </div>

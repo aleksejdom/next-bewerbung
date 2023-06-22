@@ -8,12 +8,12 @@ function Model() {
       <Script src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js" type="module"/>
       <Script src="https://www.gstatic.com/draco/v1/decoders/draco_decoder_gltf.js" type="module"/>
       <model-viewer 
-        src="/aircraft_a.glb"
-        dracodecoderpath="/draco_decoder.js"
+        src="./aircraft_a.glb"
+        dracodecoderpath="./draco_decoder.js"
         camera-controls 
-        poster="/poster.png"
+        poster="./poster.png"
         shadow-intensity="1" 
-        environment-image="/hdri.jpg"
+        environment-image="./hdri.jpg"
         exposure="1.12" 
         min-field-of-view="30deg"
         max-field-of-view="30deg"
