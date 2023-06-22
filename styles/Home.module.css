@@ -108,6 +108,55 @@
   margin-left: 0.5rem;
 }
 
+.referenzen-box {
+  margin-top: 12rem;
+  display: flex;
+  flex-direction: column;
+}
+.referenzen-box h3 {
+  font-family: 'Comfortaa Medium', sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+  max-width: 680px;
+  text-align: center;
+  margin: 0 auto 0rem;
+}
+.referenzen-box p {
+  font-family: 'Open Sans Medium', sans-serif; 
+  font-size: 16px;
+  max-width: 680px;
+  text-align: center;
+  margin: 1rem auto 3rem;
+}
+
+.cta-link {
+  font-family: 'Open Sans Medium', sans-serif; 
+  text-align: center;
+  margin-top: 0.2rem;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.scrollToTop {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+  box-sizing: border-box;
+  background: #eddb57;
+  position: fixed;
+  z-index: 1;
+  right: 15px;
+  bottom: 15px;
+}
+.scrollToTop img {
+  width: 100%;
+  height: 100%;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

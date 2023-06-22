@@ -1,0 +1,79 @@
+.background-video {
+  cursor: pointer;
+}
+.ctaBrille {
+  margin-top: 4rem;
+  background: transparent;
+  border: none;
+  color: #d3d3d3;
+  font-size: 12px;
+  padding-bottom: 6px;
+  font-family: 'Comfortaa Light', sans-serif;
+  border-bottom: 1px solid #d3d3d3;
+  cursor: pointer;
+}
+.background-video > button.mute-btn {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  border: none;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+
+.background-video .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Use RGBA to define the background color with transparency */
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-video .overlay .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.wrapper img {
+  width: 120px;
+  height: 80px;
+  object-fit: contain; 
+  margin-bottom: 5px;
+}
+
+.background-video .overlay .wrapper h1 { 
+  text-align: center;
+  font-weight: 200;
+  font-family: 'Comfortaa Medium', sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.background-video .overlay .wrapper p { 
+  margin-top: 0;
+  font-family: 'Comfortaa Medium', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .background-video {
+    height: 600px!important;
+  }
+  .background-video video {
+    height: 100%!important;
+    width: 100%!important;
+    object-fit: cover;
+  }
+  .background-video .overlay {
+    height: 600px;
+  }
+  .background-video .overlay .wrapper h1 {  
+    font-size: 2rem; 
+  }
+
+}
