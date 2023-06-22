@@ -117,7 +117,7 @@ export default function Anschreiben() {
                 <div className={styles['lebenslauf-person']}>
                   <div>
                     <p>Aleksej Domovec</p>
-                    <img src="/assets/images/photo.png" alt="Aleksej Domovec" title="Aleksej Domovec" />
+                    <img src="./assets/images/photo.png" alt="Aleksej Domovec" title="Aleksej Domovec" />
                   </div>
                   <div>
                     <p>
