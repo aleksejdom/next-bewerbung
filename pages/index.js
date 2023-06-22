@@ -41,7 +41,7 @@ export default function Home() {
       <Head>
         <title>Bewerbung als Art Director Digital</title>
         <meta name="description" content="Aleksej Domovec" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="./favicon.ico" />
       </Head>
 
       <main>
