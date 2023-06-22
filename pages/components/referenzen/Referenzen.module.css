@@ -35,6 +35,7 @@
 
 .referenz > div {
   overflow: hidden;
+  position: relative;
 }
 
 .referenz > div > img {
@@ -61,6 +62,7 @@
 .referenz .info p {
  margin-bottom: 0;
  margin-top: 5px;
+ text-align: left;
 }
 
 @media (max-width: 768px) {
@@ -75,5 +77,16 @@
     grid-row: auto;
     grid-column: auto;
     max-height: 100%;
+  }
+  .referenz > div:nth-child(1) {
+    order: 1;
+  }
+  
+  .referenz > div:nth-child(2) {
+    order: 2;
+  }
+  
+  .referenz > div:nth-child(3) {
+    order: 3;
   }
 }
