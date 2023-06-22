@@ -72,6 +72,10 @@
     width: 100%;
   }
 
+  .info { 
+    position: relative;
+  }
+
   .referenz > div:nth-child(1),
   .referenz > div:nth-child(2),
   .referenz > div:nth-child(3) {
