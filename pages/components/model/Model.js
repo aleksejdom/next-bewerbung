@@ -8,9 +8,7 @@ function Model() {
 
   useEffect(() => {
     function preventScrollOnTouchMove(e) {
-      if (e.touches.length === 2) {
-        e.preventDefault();
-      }
+      e.preventDefault();
     }
 
     const modelLoaderEl = modelLoaderRef.current;
