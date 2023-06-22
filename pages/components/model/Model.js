@@ -1,10 +1,29 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import Script from 'next/script';
 import styles from './Model.module.css';
 
 function Model() {
+
+  const modelLoaderRef = useRef(null);
+
+  useEffect(() => {
+    function preventScrollOnTouchMove(e) {
+      if (e.touches.length === 2) {
+        e.preventDefault();
+      }
+    }
+
+    const modelLoaderEl = modelLoaderRef.current;
+    modelLoaderEl.addEventListener('touchmove', preventScrollOnTouchMove, { passive: false });
+
+    // cleanup function
+    return () => {
+      modelLoaderEl.removeEventListener('touchmove', preventScrollOnTouchMove);
+    };
+  }, []);
+
   return (
-    <div className={styles['model-loader']}>
+    <div className={styles['model-loader']} ref={modelLoaderRef}>
       <Script src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js" type="module"/>
       <Script src="https://www.gstatic.com/draco/v1/decoders/draco_decoder_gltf.js" type="module"/>
       <model-viewer 
