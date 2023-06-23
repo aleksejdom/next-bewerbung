@@ -53,53 +53,35 @@ export default function Anschreiben() {
           <h2>Bewerbung als<br /> Art Director Digital</h2>
           <h3>Aleksej Domovec</h3>
           <div className={styles['text-box']} >
-            <p ref={addToRefs}>Sehr geehrte Damen und Herren,
+            <p ref={addToRefs}>Sehr geehrtes Team in der Tower-Kontrolle,
               <br /><br />
-              ich möchte Ihr großartiges Team verstärken und es noch herausragender machen. 
-              Lassen Sie mich zu Beginn Ihnen drei gute Gründe nennen, warum Sie von mir als Art Director profitieren werden: 
+              Mit großer Freude und Begeisterung möchte ich an Bord Ihres Teams kommen und meine Flugkünste als Art Director unter Beweis stellen. Als kreativer Pilot bin ich bereit, das Ruder in die Hand zu nehmen und den Himmel unserer Möglichkeiten zu durchqueren. Hier sind drei Gründe, warum ich glaube, dass ich den Kurs Ihrer Organisation erfolgreich steuern kann: 
             </p>
             <ol>
-              <li ref={addToRefs}>Ich besitze umfassende Kenntnisse in der Frontend-Programmierung,
-                im Design und in der 3D-Visualisierung. Mit meinen Fähigkeiten bin ich in der Lage, 
-                digitale Projekte eigenständig und ganzheitlich umzusetzen.
+              <li ref={addToRefs}>
+                Meine technische Flugausbildung umfasst umfassende Kenntnisse in der Frontend-Programmierung, im Design und in der 3D-Visualisierung. Diese Ausbildung hat mich darauf vorbereitet, digitale Projekte mit Geschick und Präzision zu leiten und vollständig umzusetzen.
               </li>
               <li ref={addToRefs}>
-                Mein geschultes Auge für Form, Konzeption und Ästhetik ermöglicht es mir, 
-                einzigartige und ansprechende Designs zu entwickeln, die Kunden begeistern.
+                Mein Augenmerk für Form, Konzeption und Ästhetik ermöglicht es mir, wie ein Adler mit scharfem Blick einzigartige und ansprechende Designs zu entwickeln, die unsere Passagiere (Kunden) fesseln werden.
               </li>
               <li ref={addToRefs}>
-                Innovationsgetrieben und auf dem neuesten Stand der Technologie: 
-                Ich halte mich stets über die neuesten Trends auf dem Laufenden und kann mit innovativen 
-                und performanten Lösungen glänzen. Dabei integriere ich gerne moderne KI-Technologien um 
-                meinen Workflow auf das nächste Level zu bringen. 
+                Getrieben von Innovation und immer in der Luft mit den neuesten Technologien, bringe ich immer die leistungsstärksten Lösungen auf den Flugtisch. Mit einer Begeisterung für KI-Technologien, bin ich bereit, unseren Kurs zu steuern und unser Team auf die nächste Flughöhe zu bringen.
               </li>
             </ol>
             <p ref={addToRefs}>
-              Derzeit arbeite ich in Teilzeit als Digital Designer bei einem eCommerce-
-              Unternehmen, wo ich für die Konzeption und Gestaltung von Online-Shops verantwortlich bin. 
-              Zusätzlich dazu bin ich seit 8 Jahren als Freelancer tätig und betreue klein- bis mittelständische 
-              Unternehmen und Agenturen in dem Bereich Webseitenprogrammierung. </p>
-            <p ref={addToRefs}>
-              In meiner vorherigen Anstellung als Junior Art Director bei der B2B Werbeagentur RTS-Rieger Team 
-              konnte ich wertvolle Erfahrungen im Bereich Online-Marketing, Kreativkonzeption und Erstellung digitaler 
-              und grafischer Medien sammeln. Dort habe ich auch interaktive Anwendungen für Messen entwickelt 
-              und Animationskonzepte mit Fokus auf Nutzer-Usability erstellt.
+              Derzeit navigiere ich als Digital Designer in Teilzeit bei einem eCommerce-Unternehmen, wo ich das Steuer für die Gestaltung von Online-Shops übernehme. Zusätzlich dazu bin ich seit 8 Jahren ein Freiberufler-Pilot, der kleine bis mittlere Unternehmen und Agenturen in den Bereichen Webseitenprogrammierung navigiert.  
             </p>
             <p ref={addToRefs}>
-              Mit großer Begeisterung möchte ich mich in Ihrer Agentur als Art Director Digital positionieren und Ihr Team 
-              mit meinem Fachwissen unterstützen. Mit großer Leidenschaft nutze ich die 3D-Technologie bei der 
-              Erstellung von Grafiken als auch bei Animationen. 
-              Mein fundiertes Wissen umfasst insbesondere das Programm Blender. 
-              Das Vorhandensein solcher Fähigkeiten in einer wachsenden Agentur bietet einen wertvollen Wettbewerbsvorteil 
-              und eröffnet neue Möglichkeiten für beeindruckende und innovative Projekte. 
+              Bei meiner vorherigen Station als Junior Art Director bei der B2B-Werbeagentur RTS-Rieger Team konnte ich wichtige Erfahrungen in den Bereichen Online-Marketing, Kreativkonzeption und Erstellung digitaler und grafischer Medien sammeln. Es war hier, dass ich meinen Flügel in der Entwicklung interaktiver Anwendungen für Messen und Animationen mit Fokus auf Nutzerfreundlichkeit ausgebreitet habe.
             </p>
             <p ref={addToRefs}>
-              Wie Sie anhand meiner vielfältigen Referenzen erkennen können, arbeite ich auf eine eher hybride Weise. 
-              Diesen Ansatz möchte ich gerne beibehalten, da er sowohl für mich als auch für Ihre Agentur von Vorteil ist.
+              Nun bin ich bereit, meine Flugkünste in Ihrer Agentur als Art Director Digital einzubringen und Ihr Team mit meinem Fachwissen zu unterstützen. Ich habe eine Leidenschaft für 3D-Technologie, sowohl in der Gestaltung von Grafiken als auch in der Animation. Mein umfangreiches Wissen umfasst insbesondere das Programm Blender. Diese Fähigkeiten in einer sich entwickelnden Organisation wie Ihrer zu haben, ist wie mit einem Überschalljet in den Wettbewerb zu fliegen und neue Möglichkeiten für beeindruckende und innovative Projekte zu eröffnen. 
             </p>
             <p ref={addToRefs}>
-              Ich bedanke mich herzlich für Ihre Zeit und freue mich darauf, Sie in einem persönlichen oder Online-Vorstellungsgespräch 
-              kennenzulernen.  
+            Ich möchte den hybriden Ansatz, den ich in meiner Arbeit verfolge, beibehalten, da ich glaube, dass er sowohl für mich als auch für Ihre Agentur vorteilhaft ist.
+            </p>
+            <p ref={addToRefs}>
+            Ich danke Ihnen für Ihre Zeit und freue mich darauf, Sie in einem persönlichen oder Online-Vorstellungsgespräch zu treffen, um unsere gemeinsame Flugroute zu besprechen. 
             </p>
             <p ref={addToRefs}>
               Mit freundlichen Grüßen,<br />
