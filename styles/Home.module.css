@@ -13,12 +13,16 @@
 }
 
 .footer {
+  font-family: 'Open Sans Medium', sans-serif;
   display: flex;
   flex: 1;
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.5px;
 }
 
 .footer a {
@@ -148,7 +152,7 @@
   height: 45px;
   padding: 5px;
   box-sizing: border-box;
-  background: #eddb57;
+  background: #5e2750;
   position: fixed;
   z-index: 1;
   right: 15px;
