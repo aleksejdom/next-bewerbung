@@ -50,8 +50,7 @@ export default function Anschreiben() {
       <div ref={scrollToRef}>
         {!isLebenslauf && 
         <div className={styles['anschreiben']}>
-          <h2>Bewerbung als<br /> Art Director Digital</h2>
-          <h3>Aleksej Domovec</h3>
+          <h2>Bewerbung als<br /> Art Director Digital</h2> 
           <div className={styles['text-box']} >
             <p ref={addToRefs}>Sehr geehrtes Team in der Tower-Kontrolle,
               <br /><br />
