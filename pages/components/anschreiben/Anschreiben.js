@@ -55,7 +55,7 @@ export default function Anschreiben() {
           <div className={styles['text-box']} >
             <p ref={addToRefs}>Sehr geehrtes Team in der Tower-Kontrolle,
               <br /><br />
-              Mit großer Freude und Begeisterung möchte ich an Bord Ihres Teams kommen und meine Flugkünste als Art Director unter Beweis stellen. Als kreativer Pilot bin ich bereit, das Ruder in die Hand zu nehmen und den Himmel unserer Möglichkeiten zu durchqueren. Hier sind drei Gründe, warum ich glaube, dass ich den Kurs Ihrer Organisation erfolgreich steuern kann: 
+              Mit großer Freude und Begeisterung möchte ich an Bord Ihres Teams kommen und meine Flugkünste als Art Director unter Beweis stellen. Als kreativer Pilot bin ich bereit, das Ruder in die Hand zu nehmen und den Himmel unserer Möglichkeiten zu durchqueren. Hier sind drei Gründe, warum ich glaube, dass ich den Kurs Ihrer Agentur erfolgreich steuern kann: 
             </p>
             <ol>
               <li ref={addToRefs}>
