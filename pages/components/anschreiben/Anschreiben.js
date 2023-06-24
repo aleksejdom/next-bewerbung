@@ -52,38 +52,51 @@ export default function Anschreiben() {
         <div className={styles['anschreiben']}>
           <h2>Bewerbung als<br /> Art Director Digital</h2> 
           <div className={styles['text-box']} >
-            <p ref={addToRefs}>Sehr geehrtes Team in der Tower-Kontrolle,
+            <p ref={addToRefs}>Sehr geehrte Damen und Herren,
               <br /><br />
-              Mit großer Freude und Begeisterung möchte ich an Bord Ihres Teams kommen und meine Flugkünste als Art Director unter Beweis stellen. Als kreativer Pilot bin ich bereit, das Ruder in die Hand zu nehmen und den Himmel unserer Möglichkeiten zu durchqueren. Hier sind drei Gründe, warum ich glaube, dass ich den Kurs Ihrer Agentur erfolgreich steuern kann: 
+              ich möchte Ihr großartiges Team verstärken und es noch herausragender machen. 
+              Im Verlauf meiner Karriere als Junior Art Director konnte ich bereits ein reichhaltiges Portfolio an Erfahrungen 
+              in kreativer Gestaltung, Konzeption und Online-Marketing aufbauen. Lassen Sie mich Ihnen drei gute Gründe 
+              nennen, weshalb Sie von meiner Präsenz als Art Director profitieren können: 
             </p>
             <ol>
               <li ref={addToRefs}>
-                Meine technische Flugausbildung umfasst umfassende Kenntnisse in der Frontend-Programmierung, im Design und in der 3D-Visualisierung. Diese Ausbildung hat mich darauf vorbereitet, digitale Projekte mit Geschick und Präzision zu leiten und vollständig umzusetzen.
+                Ich besitze umfassende Kenntnisse in der Frontend-Programmierung, im Design und in der 3D-Visualisierung. Mit meinen Fähigkeiten bin ich in der Lage, digitale Projekte eigenständig und ganzheitlich umzusetzen.
               </li>
               <li ref={addToRefs}>
-                Mein Augenmerk für Form, Konzeption und Ästhetik ermöglicht es mir, wie ein Adler mit scharfem Blick einzigartige und ansprechende Designs zu entwickeln, die unsere Passagiere (Kunden) fesseln werden.
+                Mein geschultes Auge für Form, Konzeption und Ästhetik ermöglicht es mir, einzigartige und ansprechende Designs zu entwickeln, die Kunden begeistern.
               </li>
               <li ref={addToRefs}>
-                Getrieben von Innovation und immer in der Luft mit den neuesten Technologien, bringe ich immer die leistungsstärksten Lösungen auf den Flugtisch. Mit einer Begeisterung für KI-Technologien, bin ich bereit, unseren Kurs zu steuern und unser Team auf die nächste Flughöhe zu bringen.
+                Innovationsgetrieben und auf dem neuesten Stand der Technologie: Ich halte mich stets über die neuesten Trends auf dem Laufenden und kann mit innovativen und performanten Lösungen glänzen. Dabei integriere ich gerne moderne KI-Technologien um meinen Workflow auf das nächste Level zu bringen. 
               </li>
             </ol>
             <p ref={addToRefs}>
-              Derzeit navigiere ich als Digital Designer in Teilzeit bei einem eCommerce-Unternehmen, wo ich das Steuer für die Gestaltung von Online-Shops übernehme. Zusätzlich dazu bin ich seit 8 Jahren ein Freiberufler-Pilot, der kleine bis mittlere Unternehmen und Agenturen in dem Bereich Webseitenprogrammierung navigiert.  
+              Derzeit arbeite ich in Teilzeit als Digital Designer bei einem eCommerce-Unternehmen, wo ich für die Konzeption und 
+              Gestaltung von Online-Shops verantwortlich bin. Zusätzlich dazu bin ich seit 8 Jahren als Freelancer tätig und betreue 
+              klein- bis mittelständische Unternehmen und Agenturen in den Bereich Webseitenprogrammierung und Grafik.
             </p>
             <p ref={addToRefs}>
-              In meiner vorherigen Rolle als Junior Art Director bei der B2B Werbeagentur RTS-Rieger Team, konnte ich meinen Horizont im Bereich des Online-Marketings erweitern und die Kunst der Kreativkonzeption meistern. Es war eine lehrreiche Reise, in der ich gelernt habe, digitale und grafische Medien zu erstellen, die die Kommunikation zwischen Marken und ihrem Publikum verändern. Meine Arbeit hat mich auch auf die belebten Flure von Messeveranstaltungen geführt, wo ich interaktive Anwendungen entwickelt habe, die die Interaktion der Nutzer steigern und gleichzeitig den Informationsfluss verbessern. Außerdem konnte ich ein tieferes Verständnis für die Nutzer-Usability erlangen und erfolgreich Animationen erstellen, die das Benutzererlebnis verbessern und den Wert der Produkte meiner Kunden hervorheben. Dieser Teil meiner Flugreise hat meine Fähigkeiten geschärft und mir die Möglichkeit gegeben, die Theorie in die Praxis umzusetzen. Mit jedem Projekt, das ich angenommen habe, konnte ich wertvolle Erfahrungen sammeln und meinen Flugplan für zukünftige Erfolge ausarbeiten.
+              Während meiner vorausgegangenen Anstellung als Junior Art Director bei der B2B-Werbeagentur RTS-Rieger Team konnte ich kostbare 
+              Erfahrungen in Kreativkonzeption und der Erstellung digitaler und 
+              grafischer Medien sammeln. In diesem Rahmen entwickelte ich unter anderem interaktive Anwendungen für Messen und schuf Animationskonzepte mit besonderem Fokus auf Nutzerfreundlichkeit und -
+              erlebnis. 
             </p>
             <p ref={addToRefs}>
-              Nun bin ich bereit, meine Flugkünste in Ihrer Agentur als Art Director Digital einzubringen und Ihr Team mit meinem Fachwissen zu unterstützen. Ich habe eine Leidenschaft für 3D-Technologie, sowohl in der Gestaltung von Grafiken als auch in der Animation. Mein umfangreiches Wissen umfasst insbesondere das Programm Blender. Diese Fähigkeiten in einer sich entwickelnden Agentur wie Ihrer zu haben, ist wie mit einem Überschalljet in den Wettbewerb zu fliegen und neue Möglichkeiten für beeindruckende und innovative Projekte zu eröffnen. 
+              Mit Leidenschaft nutze ich die 3D-Technologie zur Erstellung von 
+              Grafiken und Animationen. Mein fundiertes Wissen umfasst insbesondere das Programm Blender, welches mir neue Horizonte eröffnet. 
+              Die Vorhandensein solch herausragender Fähigkeiten in Ihrem Unternehmen schafft einen unschätzbaren Wettbewerbsvorteil und eröffnet völlig neue Möglichkeiten für beeindruckende und innovative Projekte.
             </p>
             <p ref={addToRefs}>
-            Ich möchte den hybriden Ansatz, den ich in meiner Arbeit verfolge, beibehalten, da ich glaube, dass er sowohl für mich als auch für Ihre Agentur vorteilhaft ist.
+              Anhand meiner Referenzen können Sie zweifellos erkennen, dass ich auf hybride Art und Weise arbeite, was mich zu einem Generalisten von außergewöhnlichem Kaliber macht. Ich bin überzeugt, dass diese Eigenschaft in der Position als Art Director von unschätzbarem Vorteil ist, da sie es mir ermöglicht, mit anderen Abteilungen auf Augenhöhe zu kooperieren.
             </p>
             <p ref={addToRefs}>
-            Ich danke Ihnen für Ihre Zeit und freue mich darauf, Sie in einem persönlichen oder Online-Vorstellungsgespräch zu treffen, um unsere gemeinsame Flugroute zu besprechen. 
+              Ich hoffe, mit meinen überzeugenden Argumenten Ihr Interesse 
+              geweckt zu haben, und stehe Ihnen jederzeit für weitere Auskünfte zur Verfügung. 
+              Es wäre mir eine Freude, mich persönlich bei Ihnen vorzustellen und in einem angenehmen Gespräch 
+              die Möglichkeit zu haben, Sie und Ihr Team näher kennenzulernen. 
             </p>
-            <p ref={addToRefs}>
-              Mit freundlichen Grüßen,<br />
+            <p ref={addToRefs}> 
+              Mit besten Grüßen,<br />
               Aleksej Domovec
             </p>
           </div>
