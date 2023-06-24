@@ -44,7 +44,7 @@ function BackgroundVideo() {
         <div className={styles.overlay} onClick={handleClick}>
           <div className={styles.wrapper}>
             <h1>3D Brille bereit halten</h1>
-            <Image src="./assets/images/glasses.svg" alt="glasses" title="3d glasses"/>
+            <Image src="./assets/images/glasses.svg" alt="glasses" title="3d glasses" width={120} height={80} />
             <p>VIDEO STARTEN</p>
             <button className={styles.ctaBrille} onClick={handleVideo}>{getButtonText()}</button>
           </div>
