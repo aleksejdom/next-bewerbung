@@ -105,13 +105,7 @@ export default function Home({home}) {
             imageB={<img src="./assets/images/referenzen/ref_05_02.png" alt="Bild B" />}
             imageC={<img src="./assets/images/referenzen/ref_05_03.png" alt="Bild C" />}
           />
-          {/* <LazyLoadComponent
-            title="Konzeption, UX Design"
-            descr="Online Shop"
-            imageA={<img src="./assets/images/referenzen/ref_07_01.png" alt="Bild A" />}
-            imageB={<img src="./assets/images/referenzen/ref_07_02.png" alt="Bild B" />}
-            imageC={<img src="./assets/images/referenzen/ref_07_03.png" alt="Bild C" />}
-          /> */}
+         
           <LazyLoadComponent
             title="Konzeption, UX Design"
             descr="Online Shop"
@@ -133,20 +127,7 @@ export default function Home({home}) {
             imageB={<img src="./assets/images/referenzen/ref_10_02.jpg" alt="Bild B" />}
             imageC={<img src="./assets/images/referenzen/ref_10_03.jpg" alt="Bild C" />}
           />
-          {/* <LazyLoadComponent
-            title="Konzeption, 3D Modellierung, Programmierung"
-            descr="Interaktiver Messestand mit Unity"
-            imageA={<img src="./assets/images/referenzen/ref_11_01.jpg" alt="Bild A" />}
-            imageB={<img src="./assets/images/referenzen/ref_11_02.jpg" alt="Bild B" />}
-            imageC={<img src="./assets/images/referenzen/ref_11_03.jpg" alt="Bild C" />}
-          /> */}
-         {/*  <LazyLoadComponent
-            title="Programmierung"
-            descr="Journal Website"
-            imageA={<img src="./assets/images/referenzen/ref_12_01.png" alt="Bild A" />}
-            imageB={<img src="./assets/images/referenzen/ref_12_02.png" alt="Bild B" />}
-            imageC={<img src="./assets/images/referenzen/ref_12_03.png" alt="Bild C" />}
-          /> */}
+         
           <LazyLoadComponent
             title="Programmierung"
             descr="Kanzlei Website"
