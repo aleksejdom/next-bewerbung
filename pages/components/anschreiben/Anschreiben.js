@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react';
-import Image from 'next/image'; // Import 'Image' from 'next/image'
 
 import { gsap } from 'gsap'; 
 import styles from './Anschreiben.module.css'; 
@@ -90,7 +89,7 @@ export default function Anschreiben({home}) {
                 <div className={styles['lebenslauf-person']}>
                   <div>
                     <p>Aleksej Domovec</p>
-                    <Image src="./assets/images/photo.png" alt="Aleksej Domovec" title="Aleksej Domovec" />
+                    <img src="./assets/images/photo.png" alt="Aleksej Domovec" title="Aleksej Domovec" />
                   </div>
                   <div>
                     <p>

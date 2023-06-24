@@ -1,7 +1,6 @@
 import React, { Suspense } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { BounceLoader } from 'react-spinners';
-import Image from 'next/image'; // Import 'Image' from 'next/image'
 
 
 import Head from 'next/head';
@@ -74,93 +73,93 @@ export default function Home({home}) {
           <LazyLoadComponent
             title="3D Modellierung und Rendering"
             descr="Produktvisualisierung"
-            imageA={<Image src="./assets/images/referenzen/ref_01_01.png" alt="Bild A" />}
-            imageB={<Image src="./assets/images/referenzen/ref_01_02.png" alt="Bild B" />}
-            imageC={<Image src="./assets/images/referenzen/ref_01_03.png" alt="Bild C" />}
+            imageA={<img src="./assets/images/referenzen/ref_01_01.png" alt="Bild A" />}
+            imageB={<img src="./assets/images/referenzen/ref_01_02.png" alt="Bild B" />}
+            imageC={<img src="./assets/images/referenzen/ref_01_03.png" alt="Bild C" />}
           />
           <LazyLoadComponent
             title="3D Modellierung und Rendering"
             descr="Produktbilder"
-            imageA={<Image src="./assets/images/referenzen/ref_02_01.png" alt="Bild A" />}
-            imageB={<Image src="./assets/images/referenzen/ref_02_02.png" alt="Bild B" />}
-            imageC={<Image src="./assets/images/referenzen/ref_02_03.png" alt="Bild C" />}
+            imageA={<img src="./assets/images/referenzen/ref_02_01.png" alt="Bild A" />}
+            imageB={<img src="./assets/images/referenzen/ref_02_02.png" alt="Bild B" />}
+            imageC={<img src="./assets/images/referenzen/ref_02_03.png" alt="Bild C" />}
           />
           <LazyLoadComponent
             title="Kreativ Konzeption"
             descr="Bildwelt"
-            imageA={<Image src="./assets/images/referenzen/ref_03_01.png" alt="Bild A" />}
-            imageB={<Image src="./assets/images/referenzen/ref_03_02.png" alt="Bild B" />}
-            imageC={<Image src="./assets/images/referenzen/ref_03_03.png" alt="Bild C" />}
+            imageA={<img src="./assets/images/referenzen/ref_03_01.png" alt="Bild A" />}
+            imageB={<img src="./assets/images/referenzen/ref_03_02.png" alt="Bild B" />}
+            imageC={<img src="./assets/images/referenzen/ref_03_03.png" alt="Bild C" />}
           />
           <LazyLoadComponent
             title="3D Modellierung, Programmierung"
             descr="AR Anwendung"
-            imageA={<Image src="./assets/images/referenzen/ref_04_01.jpg" alt="Bild A" />}
-            imageB={<Image src="./assets/images/referenzen/ref_04_02.jpg" alt="Bild B" />}
-            imageC={<Image src="./assets/images/referenzen/ref_04_03.jpg" alt="Bild C" />}
+            imageA={<img src="./assets/images/referenzen/ref_04_01.jpg" alt="Bild A" />}
+            imageB={<img src="./assets/images/referenzen/ref_04_02.jpg" alt="Bild B" />}
+            imageC={<img src="./assets/images/referenzen/ref_04_03.jpg" alt="Bild C" />}
           />
           <LazyLoadComponent
             title="3D Modellierung, Animation"
             descr="3D Charakter"
-            imageA={<Image src="./assets/images/referenzen/ref_05_01.png" alt="Bild A" />}
-            imageB={<Image src="./assets/images/referenzen/ref_05_02.png" alt="Bild B" />}
-            imageC={<Image src="./assets/images/referenzen/ref_05_03.png" alt="Bild C" />}
+            imageA={<img src="./assets/images/referenzen/ref_05_01.png" alt="Bild A" />}
+            imageB={<img src="./assets/images/referenzen/ref_05_02.png" alt="Bild B" />}
+            imageC={<img src="./assets/images/referenzen/ref_05_03.png" alt="Bild C" />}
           />
           {/* <LazyLoadComponent
             title="Konzeption, UX Design"
             descr="Online Shop"
-            imageA={<Image src="./assets/images/referenzen/ref_07_01.png" alt="Bild A" />}
-            imageB={<Image src="./assets/images/referenzen/ref_07_02.png" alt="Bild B" />}
-            imageC={<Image src="./assets/images/referenzen/ref_07_03.png" alt="Bild C" />}
+            imageA={<img src="./assets/images/referenzen/ref_07_01.png" alt="Bild A" />}
+            imageB={<img src="./assets/images/referenzen/ref_07_02.png" alt="Bild B" />}
+            imageC={<img src="./assets/images/referenzen/ref_07_03.png" alt="Bild C" />}
           /> */}
           <LazyLoadComponent
             title="Konzeption, UX Design"
             descr="Online Shop"
-            imageA={<Image src="./assets/images/referenzen/ref_08_01.png" alt="Bild A" />}
-            imageB={<Image src="./assets/images/referenzen/ref_08_02.png" alt="Bild B" />}
-            imageC={<Image src="./assets/images/referenzen/ref_08_03.png" alt="Bild C" />}
+            imageA={<img src="./assets/images/referenzen/ref_08_01.png" alt="Bild A" />}
+            imageB={<img src="./assets/images/referenzen/ref_08_02.png" alt="Bild B" />}
+            imageC={<img src="./assets/images/referenzen/ref_08_03.png" alt="Bild C" />}
           />
           <LazyLoadComponent
             title="Konzeption, Programmierung, Animation"
             descr="Hypebox für Messe"
-            imageA={<Image src="./assets/images/referenzen/ref_09_01.jpg" alt="Bild A" />}
-            imageB={<Image src="./assets/images/referenzen/ref_09_02.jpg" alt="Bild B" />}
-            imageC={<Image src="./assets/images/referenzen/ref_09_03.jpg" alt="Bild C" />}
+            imageA={<img src="./assets/images/referenzen/ref_09_01.jpg" alt="Bild A" />}
+            imageB={<img src="./assets/images/referenzen/ref_09_02.jpg" alt="Bild B" />}
+            imageC={<img src="./assets/images/referenzen/ref_09_03.jpg" alt="Bild C" />}
           />
           <LazyLoadComponent
             title="Konzeption, Programmierung, Animation"
             descr="Hypebox für Messe"
-            imageA={<Image src="./assets/images/referenzen/ref_10_01.jpg" alt="Bild A" />}
-            imageB={<Image src="./assets/images/referenzen/ref_10_02.jpg" alt="Bild B" />}
-            imageC={<Image src="./assets/images/referenzen/ref_10_03.jpg" alt="Bild C" />}
+            imageA={<img src="./assets/images/referenzen/ref_10_01.jpg" alt="Bild A" />}
+            imageB={<img src="./assets/images/referenzen/ref_10_02.jpg" alt="Bild B" />}
+            imageC={<img src="./assets/images/referenzen/ref_10_03.jpg" alt="Bild C" />}
           />
           {/* <LazyLoadComponent
             title="Konzeption, 3D Modellierung, Programmierung"
             descr="Interaktiver Messestand mit Unity"
-            imageA={<Image src="./assets/images/referenzen/ref_11_01.jpg" alt="Bild A" />}
-            imageB={<Image src="./assets/images/referenzen/ref_11_02.jpg" alt="Bild B" />}
-            imageC={<Image src="./assets/images/referenzen/ref_11_03.jpg" alt="Bild C" />}
+            imageA={<img src="./assets/images/referenzen/ref_11_01.jpg" alt="Bild A" />}
+            imageB={<img src="./assets/images/referenzen/ref_11_02.jpg" alt="Bild B" />}
+            imageC={<img src="./assets/images/referenzen/ref_11_03.jpg" alt="Bild C" />}
           /> */}
          {/*  <LazyLoadComponent
             title="Programmierung"
             descr="Journal Website"
-            imageA={<Image src="./assets/images/referenzen/ref_12_01.png" alt="Bild A" />}
-            imageB={<Image src="./assets/images/referenzen/ref_12_02.png" alt="Bild B" />}
-            imageC={<Image src="./assets/images/referenzen/ref_12_03.png" alt="Bild C" />}
+            imageA={<img src="./assets/images/referenzen/ref_12_01.png" alt="Bild A" />}
+            imageB={<img src="./assets/images/referenzen/ref_12_02.png" alt="Bild B" />}
+            imageC={<img src="./assets/images/referenzen/ref_12_03.png" alt="Bild C" />}
           /> */}
           <LazyLoadComponent
             title="Programmierung"
             descr="Kanzlei Website"
-            imageA={<Image src="./assets/images/referenzen/ref_13_01.png" alt="Bild A" />}
-            imageB={<Image src="./assets/images/referenzen/ref_13_02.png" alt="Bild B" />}
-            imageC={<Image src="./assets/images/referenzen/ref_13_03.png" alt="Bild C" />}
+            imageA={<img src="./assets/images/referenzen/ref_13_01.png" alt="Bild A" />}
+            imageB={<img src="./assets/images/referenzen/ref_13_02.png" alt="Bild B" />}
+            imageC={<img src="./assets/images/referenzen/ref_13_03.png" alt="Bild C" />}
           />
           <LazyLoadComponent
             title="Design"
             descr="Logoentwicklung, Etiketten"
-            imageA={<Image src="./assets/images/referenzen/ref_14_01.png" alt="Bild A" />}
-            imageB={<Image src="./assets/images/referenzen/ref_14_02.png" alt="Bild B" />}
-            imageC={<Image src="./assets/images/referenzen/ref_14_03.png" alt="Bild C" />}
+            imageA={<img src="./assets/images/referenzen/ref_14_01.png" alt="Bild A" />}
+            imageB={<img src="./assets/images/referenzen/ref_14_02.png" alt="Bild B" />}
+            imageC={<img src="./assets/images/referenzen/ref_14_03.png" alt="Bild C" />}
           />
           {/* <a href="https://aleksej-dom.de/referenzen/" target="_blank" className={styles['cta-link']}>Weitere Referenzen finden Sie hier</a> */}
         </div> 
@@ -168,7 +167,7 @@ export default function Home({home}) {
       </main>
 
       <div className={styles['scrollToTop']} onClick={handleScrollToTop} >
-      <Image src="./assets/images/glasses.svg" alt="glasses" title="3d glasses"/>
+      <img src="./assets/images/glasses.svg" alt="glasses" title="3d glasses"/>
       </div>
 
       <footer className={styles['footer']}>

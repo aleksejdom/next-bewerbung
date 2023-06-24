@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react'; 
-import Image from 'next/image'; // Import 'Image' from 'next/image'
+
 
 import styles from './BackgroundVideo.module.css';
 
@@ -44,7 +44,7 @@ function BackgroundVideo() {
         <div className={styles.overlay} onClick={handleClick}>
           <div className={styles.wrapper}>
             <h1>3D Brille bereit halten</h1>
-            <Image src="./assets/images/glasses.svg" alt="glasses" title="3d glasses" width={120} height={80} />
+            <img src="./assets/images/glasses.svg" alt="glasses" title="3d glasses"  />
             <p>VIDEO STARTEN</p>
             <button className={styles.ctaBrille} onClick={handleVideo}>{getButtonText()}</button>
           </div>
