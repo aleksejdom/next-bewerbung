@@ -1,10 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { gsap } from 'gsap';
-import styles from './Anschreiben.module.css';
+import { gsap } from 'gsap'; 
+import styles from './Anschreiben.module.css'; 
 
-export default function Anschreiben() {
+
+export default function Anschreiben({home}) {
+  console.log(home)
   const [isLebenslauf, setLebenslauf] = useState(false);
-  const scrollToRef = useRef(null); // Erstellen Sie eine neue Referenz für das "video"-Element
+  const scrollToRef = useRef(null); // Erstellen Sie eine neue Referenz für das "video"-Element 
 
   const refs = useRef([]);
   refs.current = [];
@@ -31,6 +33,7 @@ export default function Anschreiben() {
       refs.current.forEach((el) => observer.unobserve(el));
     };
   }, []);
+ 
 
   const addToRefs = (el) => {
     if (el && !refs.current.includes(el)) {
@@ -50,55 +53,29 @@ export default function Anschreiben() {
       <div ref={scrollToRef}>
         {!isLebenslauf && 
         <div className={styles['anschreiben']}>
-          <h2>Bewerbung als<br /> Art Director Digital</h2> 
+          {home && 
+            <h2>
+              {home.headline.content?.[0]?.content?.[0]?.value ?? ""}
+              <br/>
+              {home.headline.content?.[1]?.content?.[0]?.value ?? ""}
+            </h2>
+          }
           <div className={styles['text-box']} >
-            <p ref={addToRefs}>Sehr geehrte Damen und Herren,
-              <br /><br />
-              ich möchte Ihr großartiges Team verstärken und es noch herausragender machen. 
-              Im Verlauf meiner Karriere als Junior Art Director konnte ich bereits ein reichhaltiges Portfolio an Erfahrungen 
-              in kreativer Gestaltung, Konzeption und Online-Marketing aufbauen. Lassen Sie mich Ihnen drei gute Gründe 
-              nennen, weshalb Sie von meiner Präsenz als Art Director profitieren können: 
-            </p>
-            <ol>
-              <li ref={addToRefs}>
-                Ich besitze umfassende Kenntnisse in der Frontend-Programmierung, im Design und in der 3D-Visualisierung. Mit meinen Fähigkeiten bin ich in der Lage, digitale Projekte eigenständig und ganzheitlich umzusetzen.
-              </li>
-              <li ref={addToRefs}>
-                Mein geschultes Auge für Form, Konzeption und Ästhetik ermöglicht es mir, einzigartige und ansprechende Designs zu entwickeln, die Kunden begeistern.
-              </li>
-              <li ref={addToRefs}>
-                Innovationsgetrieben und auf dem neuesten Stand der Technologie: Ich halte mich stets über die neuesten Trends auf dem Laufenden und kann mit innovativen und performanten Lösungen glänzen. Dabei integriere ich gerne moderne KI-Technologien um meinen Workflow auf das nächste Level zu bringen. 
-              </li>
-            </ol>
-            <p ref={addToRefs}>
-              Derzeit arbeite ich in Teilzeit als Digital Designer bei einem eCommerce-Unternehmen, wo ich für die Konzeption und 
-              Gestaltung von Online-Shops verantwortlich bin. Zusätzlich dazu bin ich seit 8 Jahren als Freelancer tätig und betreue 
-              klein- bis mittelständische Unternehmen und Agenturen in den Bereich Webseitenprogrammierung und Grafik.
-            </p>
-            <p ref={addToRefs}>
-              Während meiner vorausgegangenen Anstellung als Junior Art Director bei der B2B-Werbeagentur RTS-Rieger Team konnte ich kostbare 
-              Erfahrungen in Kreativkonzeption und der Erstellung digitaler und 
-              grafischer Medien sammeln. In diesem Rahmen entwickelte ich unter anderem interaktive Anwendungen für Messen und schuf Animationskonzepte mit besonderem Fokus auf Nutzerfreundlichkeit und -
-              erlebnis. 
-            </p>
-            <p ref={addToRefs}>
-              Mit Leidenschaft nutze ich die 3D-Technologie zur Erstellung von 
-              Grafiken und Animationen. Mein fundiertes Wissen umfasst insbesondere das Programm Blender, welches mir neue Horizonte eröffnet. 
-              Die Vorhandensein solch herausragender Fähigkeiten in Ihrem Unternehmen schafft einen unschätzbaren Wettbewerbsvorteil und eröffnet völlig neue Möglichkeiten für beeindruckende und innovative Projekte.
-            </p>
-            <p ref={addToRefs}>
-              Anhand meiner Referenzen können Sie zweifellos erkennen, dass ich auf hybride Art und Weise arbeite, was mich zu einem Generalisten von außergewöhnlichem Kaliber macht. Ich bin überzeugt, dass diese Eigenschaft in der Position als Art Director von unschätzbarem Vorteil ist, da sie es mir ermöglicht, mit anderen Abteilungen auf Augenhöhe zu kooperieren.
-            </p>
-            <p ref={addToRefs}>
-              Ich hoffe, mit meinen überzeugenden Argumenten Ihr Interesse 
-              geweckt zu haben, und stehe Ihnen jederzeit für weitere Auskünfte zur Verfügung. 
-              Es wäre mir eine Freude, mich persönlich bei Ihnen vorzustellen und in einem angenehmen Gespräch 
-              die Möglichkeit zu haben, Sie und Ihr Team näher kennenzulernen. 
-            </p>
-            <p ref={addToRefs}> 
-              Mit besten Grüßen,<br />
-              Aleksej Domovec
-            </p>
+            {/* <p ref={addToRefs}>Sehr geehrte Damen und Herren</p> */} 
+            
+            {home && home.paragraph.content.map((content, index) => {
+              if (content.content.length > 1) {
+                return (
+                  <ul key={`ul-${index}`}>
+                    {content.content.map((item, idx) => (
+                      <li ref={addToRefs} key={`li-${index}-${idx}`}>{item.content[0].content[0].value}</li>
+                    ))}
+                  </ul>
+                )
+              } else {
+                return <p ref={addToRefs} key={`p-${index}`}>{content.content[0].value}</p>
+              }
+            })}
           </div>
         </div> 
         }
@@ -273,4 +250,4 @@ export default function Anschreiben() {
         </div>
       </div>
     )
-}
+} 

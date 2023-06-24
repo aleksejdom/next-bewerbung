@@ -8,6 +8,8 @@ import Model from './components/model/Model';
 import styles from '../styles/Home.module.css';
 import BackgroundVideo from './components/video/BackgroundVideo';
 import Anschreiben from './components/anschreiben/Anschreiben';
+import { createClient } from 'contentful';
+
 
 const Referenzen = React.lazy(() => 
   new Promise(resolve => {
@@ -29,8 +31,24 @@ function LazyLoadComponent(props) {
   );
 }
 
+export async function getStaticProps() {
+  
+  const client = createClient({
+    space: process.env.CONTENTFUL_SPACE_ID,
+    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
+  })
+  const res = await client.getEntries({ content_type: 'home'}) 
+  
+  return {
+    props: {
+      home: res.items[0].fields,
+    },
+    revalidate:1
+  }
+}
 
-export default function Home() {
+
+export default function Home({home}) {
   
   const handleScrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -46,7 +64,7 @@ export default function Home() {
 
       <main>
         <BackgroundVideo />
-        <Anschreiben />
+        <Anschreiben home={home} />
         <div className={styles["referenzen-box"]}>
           <h3>Referenzen</h3>
           <p>
