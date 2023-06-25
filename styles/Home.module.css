@@ -113,14 +113,14 @@
 }
 
 .referenzen-box {
-  margin-top: 12rem;
+  margin-top: 7rem;
   display: flex;
   flex-direction: column;
 }
 .referenzen-box h3 {
   font-family: 'Comfortaa Medium', sans-serif;
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 2.5rem;
   max-width: 680px;
   text-align: center;
   margin: 0 auto 0rem;
@@ -130,8 +130,8 @@
   font-size: 16px;
   max-width: 680px;
   text-align: center;
-  margin: 1rem auto 3rem;
-  padding: 2rem;
+  margin: 0rem auto 6rem;
+  padding: 1rem 2rem 0;
   box-sizing: border-box;
 }
 
@@ -161,6 +161,32 @@
 .scrollToTop img {
   width: 100%;
   height: 100%;
+}
+
+.ansprache {
+  padding: 2rem;
+  max-width: 680px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: 'Open Sans Regular', sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .referenzen-box p {
+    margin: 0;
+    text-align: left;
+    padding-top: 1rem;
+    max-width: 100%;
+    margin-bottom: 4rem;
+  }
+  .referenzen-box h3 {
+    text-align: left;
+    max-width: 100%;
+    padding-left: 2rem;
+    margin: 0;
+  }
 }
 
 @media (max-width: 600px) {

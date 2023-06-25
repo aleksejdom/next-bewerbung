@@ -1,7 +1,7 @@
 .anschreiben {
   margin: 0 auto;
   margin-top: 6rem;
-  max-width: 860px;
+  max-width: 930px;
   font-family: 'Open Sans SemiBold', sans-serif;
 }
 
@@ -24,10 +24,10 @@
 .text-box {
   font-family: 'Open Sans Medium', sans-serif;
   margin: 0 auto;
-  margin-top: 2rem;
   max-width: 690px;
-  padding: 2rem;
+  padding: 0 2rem 2rem;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .text-box p {
@@ -48,7 +48,8 @@
 .lebenslauf-box {
   margin: 0 auto;
   margin-top: 6rem;
-  max-width: 860px;
+  margin-bottom: 6rem;
+  max-width: 930px;
   font-family: 'Open Sans SemiBold', sans-serif;
 }
 
@@ -63,6 +64,7 @@
   
 }
 
+.lebenslauf-text-box-headline,
 .lebenslauf-text-box {
   font-family: 'Open Sans Medium', sans-serif;
   margin: 0 auto;
@@ -75,8 +77,15 @@
   text-align: left;
 }
 
+.lebenslauf-text-box-headline {
+  margin-top: 2rem;
+}
+.lebenslauf-text-box-headline:first-of-type {
+  margin-top: 0;
+}
+
 .cta-lebenslauf-wrapper {
-  margin-top: 6rem;
+  margin-top: 4rem;
   margin-bottom: 4rem; 
   display: flex;
   height: 2px;
@@ -107,7 +116,7 @@
 }
 
 .lebenslauf-text-box div {
-  width: 65%;
+  width: 80%;
   font-size: 18px;
   margin: 0.5rem 0;
 }
@@ -124,26 +133,23 @@
 .lebenslauf-text-box div ul li {
   list-style: inside;
   list-style-type: '─ ';
-}
-
+} 
 .lebenslauf-text-box div:first-of-type {
-  width: 235px;
-}
- 
+  width: 100px;
+} 
 .lebenslauf-text-box div:last-of-type {
   margin-left: 2rem;
-}
-
+} 
 .lebenslauf-data { 
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   margin-top: 4rem;
   font-family: 'Open Sans SemiBold', sans-serif;
-}
-
+} 
 .lebenslauf-zahlen {
   width: 60%;
+  margin-left: 1rem;
 }
 .lebenslauf-person {
   width: 40%;
@@ -151,6 +157,8 @@
   line-height: 19px;
   color: #5f5f5f;
   font-family: 'Open Sans Medium', sans-serif;
+  padding: 0 2rem;
+  box-sizing: border-box;
 }
 .lebenslauf-person div:first-of-type {
   font-size: 21px;
@@ -158,6 +166,8 @@
   font-family: 'Comfortaa Medium', sans-serif;
   font-weight: 600;
   color:black;
+  max-width: 100%;
+  margin-bottom: 1rem;
 }
 .lebenslauf-person div p > span { 
   color: #adadad;
@@ -166,11 +176,59 @@
   margin-right: 5px;
 }
 .lebenslauf-person img {
-  max-width: 150px;
+  max-width: 250px;
   border-radius: 15px;
+}
+.lebenslauf-person .lebenslauf-grid {
+  display: flex;
+}
+.lebenslauf-person .lebenslauf-grid > div:first-of-type {
+  width: 35%;
+}
+.lebenslauf-person .lebenslauf-grid > div:last-of-type {
+  width: 60%;
+}
+.lebenslauf-person .lebenslauf-grid > div > p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-weight: 400;
+  font-family: 'Open Sans Regular', sans-serif;
+  font-size: 14px;
+}
+.lebenslauf-person .lebenslauf-grid > div > a {
+  margin: 0;
+  font-family: "Open Sans Medium", sans-serif;
+}
+.lebenslauf-data > .lebenslauf-person > div > p.lebenslauf-name {
+  font-size: 21px;
+  text-align: left;
+  margin-top: 0;
 }
 
 @media (max-width: 768px) {
+  .lebenslauf-person .lebenslauf-grid {
+    width: 100%;
+  }
+  .lebenslauf-person .lebenslauf-grid > div:first-of-type {
+    width: 120px;
+  }
+  .lebenslauf-person .lebenslauf-grid > div:last-of-type {
+    width: 65%;
+  }
+  .lebenslauf-grid > div {
+    width: 220px;
+  }
+  .lebenslauf-person .lebenslauf-grid {
+    margin-top: 0; 
+  }
+  .lebenslauf-person div:first-of-type { 
+    margin-bottom: 0;
+  }
+  .lebenslauf-data > .lebenslauf-person > div > p.lebenslauf-name { 
+    text-align: center;
+    margin-top: 1rem;
+  }
   .anschreiben { 
     margin-top: 4rem;
     max-width: 100%; 
@@ -193,9 +251,15 @@
     margin-top: 0rem;
     padding-top: 1rem;
     max-width: 100%; 
+    text-align: left;
+  }
+  .text-box p {
+    margin: 0;
   }
   .cta-lebenslauf-wrapper {
-    margin-top: 3rem; 
+    margin-top: 4rem; 
+    justify-content: flex-start;
+    margin-left: 2rem;
   }
   .lebenslauf-box { 
     margin-top: 4rem; 
@@ -217,18 +281,72 @@
     width: 100%;
     padding: 2rem;
     box-sizing: border-box;
+    margin-left: 0;
   }
-  .lebenslauf-text-box div:first-of-type {
-    width: 25%;
-    font-size: 12px;
+  .lebenslauf-text-box-headline div:first-of-type,
+  .lebenslauf-text-box div:first-of-type { 
+    width: 140px;
+    font-size: 16px;
+    margin: 0;
   }
+  .lebenslauf-text-box-headline div:last-of-type,
   .lebenslauf-text-box div:last-of-type {
+    margin: 0;
     margin-left: 1rem;
+    width: 100%;
+  }
+  .lebenslauf-text-box div ul li {
+    font-size: 16px;
   }
   .lebenslauf-text-box div { 
     font-size: 16px; 
   }
   .lebenslauf-text-box {
     margin-top: 0.6rem!important;
+  }
+  .lebenslauf-text-box-headline > div:last-of-type > p,
+  .lebenslauf-text-box > div:last-of-type > p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .lebenslauf-data {
+    margin-top: 1rem;
+  }
+  .lebenslauf-person > div:first-of-type {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1rem;
+    max-width: 100%;
+  }
+  .lebenslauf-person > div > p:first-of-type {
+    padding: 0;
+    margin: 0;
+    margin-top: 0rem;
+    margin-bottom: 0rem; 
+    font-size: 12px;
+    font-family: 'Open Sans SemiBold', sans-serif;
+    line-height: 1.5;
+    color: #000000;
+    width: 100%;
+  }
+  .lebenslauf-person > div > p:first-of-type > span {
+    font-family: 'Open Sans SemiBold', sans-serif;
+    color: #000000;
+    font-size: 10px;
+  }
+  .lebenslauf-person > div > p {
+    text-align: left;
+  }
+  .lebenslauf-person img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
+  }
+  .lebenslauf-person > div:last-of-type {
+    margin-top: 1rem;
   }
 }

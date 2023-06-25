@@ -88,26 +88,36 @@ export default function Anschreiben({home}) {
               <div className={styles['lebenslauf-data']}> 
                 <div className={styles['lebenslauf-person']}>
                   <div>
-                    <p>Aleksej Domovec</p>
+                    <p className={styles['lebenslauf-name']}>Aleksej Domovec</p>
                     <img src="./assets/images/photo.png" alt="Aleksej Domovec" title="Aleksej Domovec" />
                   </div>
-                  <div>
-                    <p>
-                    <span>Geburtsdatum:</span> 16.05.1990<br />
-                    <span>Geburtsort:</span> Kasachstan<br />
-                    <span>Staatsangehörigkeit:</span> deutsch
-                    </p>
+                  <div className={styles['lebenslauf-grid']}>
+                    <div>
+                      <p><span>Geburtsdatum:</span></p>
+                      <p><span>Geburtsort:</span></p>
+                      <p><span>Nationalität:</span></p>
+                    </div>
+                    <div>
+                      <p>16.05.1990</p>
+                      <p>Kasachstan</p>
+                      <p>deutsch</p>
+                    </div>
                   </div>
-                  <div>
-                    <p>
-                    <span>Sprachen:</span> Deutsch, Russisch, Englisch<br />
-                    <span>Telefon:</span> 0159 06372543<br />
-                    <span>E-Mail:</span> <a href="mailto:aleksej.3dweb@gmail.com" target='_blank'>aleksej.3dweb@gmail.com</a>
-                    </p>
+                  <div className={styles['lebenslauf-grid']}>
+                     <div>
+                        <p><span>Sprachen:</span></p>
+                        <p><span>Telefon:</span></p>  
+                        <p><span>E-Mail:</span></p>
+                     </div>
+                     <div>
+                        <p>Deutsch, Russisch, Englisch</p>
+                        <p>0159 06372543</p>
+                        <a href="mailto:aleksej.3dweb@gmail.com" target='_blank'>aleksej.3dweb@gmail.com</a>
+                     </div>
                   </div>
                 </div>
                 <div className={styles['lebenslauf-zahlen']}> 
-                  <div className={styles['lebenslauf-text-box']}>
+                  <div className={styles['lebenslauf-text-box-headline']}>
                     <div>
                       <p><strong>Datum</strong></p> 
                     </div>
@@ -164,7 +174,7 @@ export default function Anschreiben({home}) {
                     </div>
                   </div>
 
-                  <div className={styles['lebenslauf-text-box']} style={{ marginTop : '3rem'}}>
+                  <div className={styles['lebenslauf-text-box-headline']} >
                     <div>
                       <p><strong>Datum</strong></p> 
                     </div>
@@ -197,7 +207,7 @@ export default function Anschreiben({home}) {
                     </div>
                   </div>
 
-                  <div className={styles['lebenslauf-text-box']} style={{ marginTop : '3rem'}}>
+                  <div className={styles['lebenslauf-text-box-headline']}  >
                     <div>  
                     </div>
                     <div>
