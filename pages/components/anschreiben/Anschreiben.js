@@ -65,7 +65,7 @@ export default function Anschreiben({home}) {
             {/* <p ref={addToRefs}>Sehr geehrte Damen und Herren</p> */} 
             
             {home && home.paragraph.content.map((content, index) => {
-              if (content.content.length > 1) {
+              if (content.content.length > 2) {
                 return (
                   <ul key={`ul-${index}`}>
                     {content.content.map((item, idx) => (

@@ -120,7 +120,7 @@
 .referenzen-box h3 {
   font-family: 'Comfortaa Medium', sans-serif;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   max-width: 680px;
   text-align: center;
   margin: 0 auto 0rem;
@@ -171,6 +171,11 @@
   line-height: 1.5;
   font-family: 'Open Sans Regular', sans-serif;
   text-align: center;
+}
+.ansprache h3 {
+  font-size: 2rem;
+  font-style: italic;
+  line-height: 1.2;
 }
 
 @media (max-width: 768px) {

@@ -66,9 +66,9 @@ export default function Home({home}) {
         <BackgroundVideo />
         <Anschreiben home={home} />
         <div className={styles["referenzen-box"]}>
-          <h3>Referenzen</h3>
+          <h3>Konzeption - Design - 3D - Programmierung</h3>
           <p>
-            Entdecken Sie meine vielfältigen Referenzen aus den Bereichen Konzeption, Grafikerstellung, UX Design, 3D Visualisierung und Programmierung. Diese Arbeiten spiegeln meine vielseitige Expertise und meine Leidenschaft für kreatives und technisches Design wider
+            Mit über 9 Jahren Erfahrung im Cockpit der digitalen Produktion, habe ich viele aufregende Flüge durch das Universum der Kreativität unternommen. Ich lade Sie ein, an Bord zu kommen und meine Referenzen zu entdecken, die die Reise meiner Karriere aufzeigen.
           </p>
           <LazyLoadComponent
             title="3D Modellierung und Rendering"
@@ -86,14 +86,14 @@ export default function Home({home}) {
           />
           <LazyLoadComponent
             title="Kreativ Konzeption"
-            descr="Stellen Sie sich vor, Sie betreiben einen Online-Shop, der so technologisch fortgeschritten ist, dass er Lieferungen nicht nur an jeden Ort auf der Erde, sondern sogar darüber hinaus ermöglicht - Willkommen im interstellaren E-Commerce! Meine Mission? Nicht weniger als die Konzeption und Findung passender Bildmotive. Und lassen Sie mich Ihnen sagen, es war ein bisschen wie eine Weltraummission: Suchen, entdecken, visuelle Welten erschaffen. Mit einem Augenzwinkern könnte man sagen, dass die Konzepte, die ich schließlich präsentierte, wirklich 'außerirdisch' gut waren!"
+            descr="Stellen Sie sich vor, Sie betreiben einen Online-Shop, der so technologisch fortgeschritten ist, dass er Lieferungen nicht nur an jeden Ort auf der Erde, sondern sogar darüber hinaus ermöglicht - Willkommen im interstellaren E-Commerce! Meine Mission? Nicht weniger als die Konzeption und Gestaltung passender Bildmotive."
             imageA={<img src="./assets/images/referenzen/ref_03_01.png" alt="Bild A" />}
             imageB={<img src="./assets/images/referenzen/ref_03_02.png" alt="Bild B" />}
             imageC={<img src="./assets/images/referenzen/ref_03_03.png" alt="Bild C" />}
           />
           <LazyLoadComponent
             title="3D Modellierung, Programmierung"
-            descr="Mit ein paar Augmented Reality-Zaubersprüchen habe ich ein altes Kindheitshaus aus vergilbten Fotos rekonstruiert. Jede Ecke, jedes Knarren der Dielen - eine Collage aus Erinnerungen, die sich festhalten wie der Duft von Omas Apfelkuchen. Stellen Sie sich vor, Sie könnten durch diese Tür treten und einen Moment in Ihre Vergangenheit schlüpfen, wie in ein Paar altgeliebte Hausschuhe."
+            descr="Mit einem Augenzwinkern und moderner AR-Technologie habe ich die entfernten Erinnerungen an mein altes Kindheitshaus, das heute hinter Kilometern und verblassten Wegen verborgen liegt, zum Leben erweckt. Jetzt kann jeder mit nur einem Klick eine Zeitreise unternehmen, direkt ins Herz meiner Vergangenheit, ohne die Gefahr, einem T-Rex zum Opfer zu fallen!"
             imageA={<img src="./assets/images/referenzen/ref_04_01.jpg" alt="Bild A" />}
             imageB={<img src="./assets/images/referenzen/ref_04_02.jpg" alt="Bild B" />}
             imageC={<img src="./assets/images/referenzen/ref_04_03.jpg" alt="Bild C" />}
@@ -122,7 +122,7 @@ export default function Home({home}) {
           />
           <LazyLoadComponent
             title="Konzeption, Programmierung, Animation"
-            descr="Für Renolit sprang ich in die Rolle eines digitalen Alchemisten, um ihre Produkte in eine interaktive Messeanwendung zu verwandeln. Durch kreative Animationen, die aus meinen Fingern flossen, entstand eine magische Landschaft, in der die Anwendungen von Renolit Produkten sich wie funkelnde Sterne am Himmel zeigten. Es war ein Tanz von Bytes und Pixeln, der den Besuchern nicht nur Produkte, sondern Geschichten erzählte."
+            descr="Im Auftrag von Renolit verwandelte ich die bunte Palette ihrer Produkte in eine interaktive Erzählung. Mit fließenden Animationen und einem Auge für Nutzerfreundlichkeit webte ich eine digitale Bühne, auf der jedes Produkt seinen großen Auftritt hatte. Das Resultat war ein fesselndes Ballett von Pixeln und Praxis, das auf der Messe die Blicke auf sich zog wie ein Leuchtturm in der Nacht."
             imageA={<img src="./assets/images/referenzen/ref_10_01.jpg" alt="Bild A" />}
             imageB={<img src="./assets/images/referenzen/ref_10_02.jpg" alt="Bild B" />}
             imageC={<img src="./assets/images/referenzen/ref_10_03.jpg" alt="Bild C" />}
@@ -145,8 +145,8 @@ export default function Home({home}) {
           {/* <a href="https://aleksej-dom.de/referenzen/" target="_blank" className={styles['cta-link']}>Weitere Referenzen finden Sie hier</a> */}
         </div>
         <div className={styles['ansprache']}>
-          <h3>Bewerbung als Art Director Digital</h3>
-          <p>Während wir virtuell die Lüfte durchquert und dabei das Echo der Turbinen genossen haben, hoffe ich, dass Sie gut unterhalten wurden und einen detaillierten Einblick in die Flugrouten meiner Projekte und Kenntnisse erhalten haben, ähnlich einem interaktiven Flugzeug, das Sie nach Belieben drehen und zoomen können. Mit Vorfreude auf die mögliche Landung in Ihrem Team, schwebt mein Pilotenherz in der Hoffnung, bald von Ihnen zu hören.</p>
+          <h3>"...Anflug auf die Position des Art Directors, bitte um Landeerlaubnis."</h3>
+          <p>Während wir virtuell die Lüfte durchquert und dabei das Echo der Turbinen genossen haben, hoffe ich, dass Sie gut unterhalten wurden und einen detaillierten Einblick in die Flugrouten meiner Projekte und Kenntnisse erhalten haben, ähnlich einem interaktiven <b>Flugzeug</b>, das Sie nach Belieben <b>drehen</b> und <b>zoomen</b> können. Mit Vorfreude auf die mögliche Landung in Ihrem Team, schwebt mein Pilotenherz in der Hoffnung, bald von Ihnen zu hören.</p>
         </div> 
         <Model />
       </main>
