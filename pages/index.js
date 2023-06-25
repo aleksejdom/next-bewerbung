@@ -145,7 +145,7 @@ export default function Home({home}) {
           {/* <a href="https://aleksej-dom.de/referenzen/" target="_blank" className={styles['cta-link']}>Weitere Referenzen finden Sie hier</a> */}
         </div>
         <div className={styles['ansprache']}>
-          <h3>"...Anflug auf die Position des Art Directors, bitte um Landeerlaubnis."</h3>
+          <h3>...Anflug auf die Position des Art Directors, bitte um Landeerlaubnis.</h3>
           <p>Während wir virtuell die Lüfte durchquert und dabei das Echo der Turbinen genossen haben, hoffe ich, dass Sie gut unterhalten wurden und einen detaillierten Einblick in die Flugrouten meiner Projekte und Kenntnisse erhalten haben, ähnlich einem interaktiven <b>Flugzeug</b>, das Sie nach Belieben <b>drehen</b> und <b>zoomen</b> können. Mit Vorfreude auf die mögliche Landung in Ihrem Team, schwebt mein Pilotenherz in der Hoffnung, bald von Ihnen zu hören.</p>
         </div> 
         <Model />
