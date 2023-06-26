@@ -77,6 +77,13 @@
   text-align: left;
 }
 
+.lebenslauf-text-box-headline > div:first-of-type {
+  width: 100px;
+}
+.lebenslauf-text-box-headline > div:last-of-type {
+  margin-left: 2rem;
+  width: 80%;
+}
 .lebenslauf-text-box-headline {
   margin-top: 2rem;
 }
