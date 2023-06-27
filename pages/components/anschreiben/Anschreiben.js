@@ -256,7 +256,7 @@ export default function Anschreiben({home}) {
           }
         <div className={styles['cta-lebenslauf-wrapper']}>
           <button className={styles['cta-lebenslauf']} onClick={handleLebenslauf}>
-            {!isLebenslauf ? 'Lebenslauf' : 'Anschreiben'}
+            {!isLebenslauf ? 'Lebenslauf' : 'Fliegen wir los'}
           </button>
         </div>
       </div>
