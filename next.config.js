@@ -4,6 +4,5 @@ module.exports = {
     locales: ["de"],
     defaultLocale: "de",
   },
-  assetPrefix: '/airplane/',
-  basePath: '/airplane',
+  
 };

@@ -1,14 +1,11 @@
 {
-  "homepage": "https://aleksejdom.github.io/airplane",
   "name": "bewerbung",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "gsap": "^3.12.1",
